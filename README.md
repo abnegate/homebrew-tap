@@ -6,5 +6,5 @@ Homebrew formulae for abnegate packages.
 
 ```bash
 brew tap abnegate/tap
-brew install claude-watchers
+brew install claudear
 ```
