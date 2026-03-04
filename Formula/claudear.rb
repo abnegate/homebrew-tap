@@ -10,14 +10,14 @@ class Claudear < Formula
   on_macos do
     on_arm do
       url "https://github.com/abnegate/claudear/releases/download/v0.20.0/claudear-macos-arm64.tar.gz"
-      sha256 "5257b0a513df092581118521d3ed12d4dde9e948b9bc12aa4d61e76554bdf099"
+      sha256 "2b42fe0b2de06b83374b3774e8875ff839e8134973b1e89010ebf78f59b42448"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/abnegate/claudear/releases/download/v0.20.0/claudear-linux-amd64.tar.gz"
-      sha256 "7608202a8f9181989b262c20176a9a8272616ad6e353e3431b8c79d4da6b2c48"
+      sha256 "d2935394ea8313aefd9ced7c17ed223e403cd505d2e57ba85c053840a050e136"
     end
   end
 
