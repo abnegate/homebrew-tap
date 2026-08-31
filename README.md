@@ -6,5 +6,6 @@ Homebrew formulae for abnegate packages.
 
 ```bash
 brew tap abnegate/tap
+brew install magents
 brew install claudear
 ```
