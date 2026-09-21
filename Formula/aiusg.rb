@@ -4,28 +4,28 @@
 class Aiusg < Formula
   desc "Usage limits and reset times across all your AI provider accounts"
   homepage "https://github.com/abnegate/aiusg"
-  version "0.4.0"
+  version "0.4.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/abnegate/aiusg/releases/download/0.4.0/aiusg-aarch64-apple-darwin.tar.gz"
-      sha256 "d399b0dce773a10cc426bd4d6031ba9eab965bd43298e8fbb3c4367504fd501b"
+      url "https://github.com/abnegate/aiusg/releases/download/0.4.1/aiusg-aarch64-apple-darwin.tar.gz"
+      sha256 "3e172013e8518c34a6ffed64e22caa5614d22f06c5a4aaa6fb6da5605f568e65"
     end
     on_intel do
-      url "https://github.com/abnegate/aiusg/releases/download/0.4.0/aiusg-x86_64-apple-darwin.tar.gz"
-      sha256 "e85dded715abcaa1ccfd09e5be43c86143655866dd3db864262949ca66c3180d"
+      url "https://github.com/abnegate/aiusg/releases/download/0.4.1/aiusg-x86_64-apple-darwin.tar.gz"
+      sha256 "4fc273629e5a75a3a5e51a6b9cbf0c673b20881745e08e71f68d72ed103e6294"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/abnegate/aiusg/releases/download/0.4.0/aiusg-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "fa8a1db10c418e2a985d3d3ac76f1d63366a31da15b35d5d76cee2a57d0805c1"
+      url "https://github.com/abnegate/aiusg/releases/download/0.4.1/aiusg-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "37c5f124db57059062ab10ad09195d25a50e6778efb5f89986bced515db09cce"
     end
     on_arm do
-      url "https://github.com/abnegate/aiusg/releases/download/0.4.0/aiusg-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "5eed10ca39d23706c8a7076203b0be2f861d64cea77036941e8f11f8abdc928f"
+      url "https://github.com/abnegate/aiusg/releases/download/0.4.1/aiusg-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "92f3dc37eac8e588292f8efd2d3999fb84b84b947b903d7682f0e8dee3aac2cf"
     end
   end
 
