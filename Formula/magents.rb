@@ -4,28 +4,28 @@
 class Magents < Formula
   desc "Shared session bus for Claude Code, Codex, Cursor, Grok, and OpenCode"
   homepage "https://github.com/abnegate/magents"
-  version "0.14.0"
+  version "0.14.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/abnegate/magents/releases/download/0.14.0/magents-aarch64-apple-darwin.tar.gz"
-      sha256 "5d3662d9ed4b5dc1a88968822b17be94e9ce07fc69da6055700878b697a75a21"
+      url "https://github.com/abnegate/magents/releases/download/0.14.1/magents-aarch64-apple-darwin.tar.gz"
+      sha256 "2f2570646c16eef6bdabd23b9ecb7da52025b1567cce9ab5f94e6e84249ebd93"
     end
     on_intel do
-      url "https://github.com/abnegate/magents/releases/download/0.14.0/magents-x86_64-apple-darwin.tar.gz"
-      sha256 "24198a98d402a89bb984fae90c40983b556f4494a0ae1267c0a61fe4090c3739"
+      url "https://github.com/abnegate/magents/releases/download/0.14.1/magents-x86_64-apple-darwin.tar.gz"
+      sha256 "c4ec59794a3d06391738a369dc0f5a144175eb9863a669d442c0c08204c990ee"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/abnegate/magents/releases/download/0.14.0/magents-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "cae5b9488bed2f35ee1d98b441172f07207949c841ca02bd8fe7266705e5cc11"
+      url "https://github.com/abnegate/magents/releases/download/0.14.1/magents-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "98b57116956c9a77b278e6b5c3779ba7420db115e2a9dbb56aa90448c6bf4e6f"
     end
     on_arm do
-      url "https://github.com/abnegate/magents/releases/download/0.14.0/magents-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "23acaa6a98d48b551548347561feab9bda85e9c13adec5548f3dbe5054983a1f"
+      url "https://github.com/abnegate/magents/releases/download/0.14.1/magents-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "028123684de9a7b8728615668c905841321cdb7fe109fd192de9720212a6daa9"
     end
   end
 
