@@ -4,20 +4,20 @@
 class Claudear < Formula
   desc "High-performance watcher service that monitors issue trackers and spawns Claude Code agents to own resolution"
   homepage "https://github.com/appwrite/claudear"
-  version "0.56.3"
+  version "0.57.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/appwrite/claudear/releases/download/v0.56.3/claudear-macos-arm64.tar.gz"
-      sha256 "7f8b3d0793cc2844d689c3698bb7c5e6329adb5c3c2864822f82485c47799f40"
+      url "https://github.com/appwrite/claudear/releases/download/v0.57.0/claudear-macos-arm64.tar.gz"
+      sha256 "27ac4247a1f378b5a4297118946ae5aad798c60fcb59ec25f37c08897e5dd9a0"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/appwrite/claudear/releases/download/v0.56.3/claudear-linux-amd64.tar.gz"
-      sha256 "464e76cd289135c16a4506893aee93693bbbdfcd70ac13fe5baa40d3f67878c3"
+      url "https://github.com/appwrite/claudear/releases/download/v0.57.0/claudear-linux-amd64.tar.gz"
+      sha256 "6d3ff570fc27c4bfdf1cd14a0dd89be42167292a90d92588d1c9ac2f5a96b880"
     end
   end
 
